@@ -37,7 +37,7 @@ def everystock():
 	flog = open(filename,'w')
 	flog.write('今天的行情插入完成%s条'%a)
 #	print('今天的行情插入完成%s条'%a)
-	fp.close()
+	flog.close()
 	conn.commit()
 	conn.close()
 	cursor.close()
