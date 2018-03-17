@@ -20,10 +20,10 @@ def send_email():
 	mail_body = f.read()
 #	print(mail_body)
 	f.close()
-	#设置邮件服务器和账号密码
+	#设置自己邮件服务器和账号密码
 	smtpserver = 'smtp.163.com'
 	user = '17665324876@163.com'
-	password = 'liu497051142'
+	password = 'xxxxx'
 	#设置接收邮箱和主题
 	sender = user
 	receiver = '497051142@qq.com'
